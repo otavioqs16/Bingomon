@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2a75bb;
+    overflow-y: hidden;
+}
+
+.container{
+    background-color: #2a75bb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.start{
+    margin: 15px;
+    margin-top: -300px;
+}
+
+.btn-start{
+    padding: 10px;
+    height: 80px;
+    font-size: 2rem;
+    width: 150px;
+    border-radius: 30px;
+    background-color: #fe4583;
+    border: 2px solid #0061bd;
+    box-shadow: 1px 2px 2px #0061bd;
+}
+
+.rand-pk-img{
+    margin-top: -15px;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    gap: 15px;
+    padding: 10px;
+}
+
+.card-item{
+    background-color: azure;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-item:hover{
+    transition: .3s ease;
+    background-color: #FAC463;
+}
+
+.card-item img:hover{
+    transition: .3s ease-in-out;
+    transform: scale(110%);
+}
+
+.selected{
+    border: 2px solid #f04000;
+}
+
+.btn-bingo{
+    padding: 10px;
+    width: 150px;
+    border-radius: 30px;
+    height: 80px;
+    background-color: #fe4583;
+    border: 2px solid #0061bd;
+    box-shadow: 1px 2px 2px #0061bd;
+    margin: 15px;
+    display: none;
+}
+
+.btn-restart{
+    height: 75px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #fe4583;
+    border: 2px solid #0061bd;
+    box-shadow: 1px 2px 2px #0061bd;
+    margin: 15px;
+    display: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+button:hover{
+    transition: .3s ease-in-out;
+    background-color: #e70e56;
+}
