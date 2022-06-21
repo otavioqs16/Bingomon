@@ -96,3 +96,37 @@ button:hover{
     transition: .3s ease-in-out;
     background-color: #e70e56;
 }
+
+@media (max-width: 768px){
+    .logo{
+        margin: 0 auto;
+    }
+    
+    .start{
+        margin-left: 100px;
+    }
+    
+    .card{
+        display: grid;
+        margin-left: 80px;
+        grid-template-columns: repeat(4, 80px);
+        gap: 40px;
+        padding: 10px;
+    }
+
+    .card-item{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .btn-bingo{
+        margin-left: 100px;
+        margin-top: 30px;
+    }
+
+    .btn-restart{
+        margin-left: 100px;
+        margin-top: 30px;
+    }
+
+}
